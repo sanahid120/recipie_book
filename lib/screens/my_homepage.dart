@@ -53,7 +53,7 @@ class _RecipeView extends StatelessWidget {
                   leading: const CircleAvatar(
                     backgroundColor: Colors.blueAccent,
                     foregroundColor: Colors.white,
-                    child: Icon(Icons.emoji_food_beverage_rounded),
+                    child: Icon(Icons.fastfood_rounded),
                   ),
                   title: Text(
                     recipe.title,
