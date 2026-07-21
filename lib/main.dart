@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipie_book/screens/my_homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:  MyHomePage(),
+      home:  MyHomepage(),
     );
   }
 }
